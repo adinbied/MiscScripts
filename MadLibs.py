@@ -1,12 +1,27 @@
 #Python Mad Libs
-import time
+import time #get sleep dependencies
 print("Welcome to Mad Libs, Python Edition!")
-print("Please select a story. A: Story1, B: Story2, C: Story3")
-story = raw_input("Type A, B, or C:   ")
-
+print("Please select a story. A: What's For Dinner?, B: Story2, C: Story3")
+story = raw_input("Type A, B, or C:   ") #Choose story
 print("Story " + story + " selected! Please wait... ")
 time.sleep(1)
 if story == 'A':
-    noun1 = raw_input("Noun? ")
-    verb1 = raw_input("Verb? ")
+    anoun1 = raw_input("Noun: ")
+    aperson1 = raw_input("Person in Room: ")
+    averb1 = raw_input("Verb: ")
+    abody1 = raw_input("Body Part (plural): ")
+    aadjective1 = raw_input("Adjective: ")
+    anoun2 = raw_input("Noun: ")
+    aplnoun1 = raw_input("Plural Noun: ")
+    aliquid1 = raw_input("Liquid type: ")
+    aadjective2 = raw_input("Adjective: ")
+    anoun3 = raw_input("Noun: ")
+    anoun4 = raw_input("Noun: ")
+    anoun5 = raw_input("Noun: ")
+    aplnoun2 = raw_input("Plural Noun: ")
+    aperson2 = raw_input("Person in Room (Female): ")
+    anoun6 = raw_input("Noun: ")
+    abody2 = raw_input("Body Part (Plural): ")
+    print("Done! Preparing your story...")
+    time.sleep(1)
     print("So, you are already " + verb1 + " years old, " + noun1 + "!")
