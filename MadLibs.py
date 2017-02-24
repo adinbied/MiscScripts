@@ -1,4 +1,5 @@
 print("Welcome to Mad Libs, Python Edition!")
-noun1 = input("Noun? ")
-verb1 = input("Verb? ")
+time.sleep(1)
+noun1 = raw_input("Noun? ")
+verb1 = raw_input("Verb? ")
 print("So, you are already " + verb1 + " years old, " + noun1 + "!")
