@@ -27,7 +27,7 @@ if story == 'A': #Get word values
     print("Done! Preparing your story...")
     time.sleep(1)
     print("It was Thanksgiving, and the scent of succulent roast" + anoun1 + " wafted through my house.") 
-    print("'" aperson1 + " it's time to " + averb1 + " !' My mother called. I couldn't wait to get my " + abody1 + " on that " + aadjective1 + " Thanksgiving meal.")
+    print(aperson1 + " it's time to " + averb1 + " !' My mother called. I couldn't wait to get my " + abody1 + " on that " + aadjective1 + " Thanksgiving meal.")
     print("My family sat around the dining-room " + anoun2 + ". The table was laid out with every kind of " + anoun3 + " imaginable.")
     print("There was a basket of hot buttered " + aplnoun1 + " and glasses of sparkling " + aliquid1 + ". The " + aadjective2 + " turkey sat, steaming, next to a tureen of " + anoun4 + "gravy.")
     print("A bowl of ruby-red " + anoun5 + " sauce, a sweet-" + anoun6 + " casserole, and a dish of mashed " + aplnoun2 + " temped my taste buds.")
